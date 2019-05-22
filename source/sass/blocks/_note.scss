@@ -1,0 +1,14 @@
+.note {
+  &--recommended::after {
+    content:"*";
+
+    color: $font-color-hover;
+  }
+
+  &--academy::after {
+    content:" (academy)";
+
+    color: rgb(86, 88, 236);
+    font-size: 14px;
+  }
+}
