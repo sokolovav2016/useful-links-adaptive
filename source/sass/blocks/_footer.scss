@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
   }
 }
@@ -35,6 +35,8 @@
 
     path {
       fill: #ffffff;
+
+      transition-duration: 150ms;
     }
   }
 
